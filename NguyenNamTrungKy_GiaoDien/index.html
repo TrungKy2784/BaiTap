@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/layoutsite.css">
+    <script src="assets/jquery/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <header class="section_header bg-light py-2 fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="index.html">
+                        <img src="assets/images/logo.webp" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-md-8 ">
+                    <ul class="nav head" >
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-black" href="#">Về chúng tôi</a>
+                        </li>
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle" href="product.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Sản phẩm
+                            </a>
+                            <ul class="dropdown-menu font-monospace">
+                              <li><a class="dropdown-item" href="product.html">Áo</a></li>
+                              <li><a class="dropdown-item" href="#">Quần</a></li>
+                              <li><a class="dropdown-item" href="#">Giày & Phụ kiện</a></li>
+                              <li><a class="dropdown-item" href="#">Collection</a></li>
+                              <li><a class="dropdown-item" href="#">Best Saler</a></li>
+                            </ul>
+                        </div>
+                        <li class="nav-item">
+                          <a class="nav-link text-yellow" href="#">Sale</a>
+                        </li>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Tin tức
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Khách hàng
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="contact.html">Liên hệ</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-black" href="#">Cửa hàng</a>
+                          </li>
+                      </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="nav pt-3">
+                        <li class="nav-item px-2 position-relative">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                        <li class="nav-item px-2 position-relative">
+                            <i class="fa-regular fa-user"></i>
+                        </li>
+                        <li class="nav-item px-2 position-relative">
+                            <i class="fa-regular fa-heart"></i>
+                                <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
+                                  0
+                                  <span class="visually-hidden">unread messages</span>
+                                </span>
+                        </li>
+                        <li class="nav-item px-2 position-relative">
+                            <i class="fa-regular fa-bell"></i>
+                            <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
+                                3
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </li>
+                        <li class="nav-item px-2 position-relative">
+                            <i class="fa-brands fa-shopify"></i>
+                            <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
+                                3
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+         <div class="row">
+            <div class="col-md-12  banner" >
+                <img src="assets/images/slider_1.webp" style="width: 1636px;"  alt="">
+            </div>
+         </div>
+    </div>
+    <div class="content-sale">
+            <div class="container py-4">
+                <h2>Flash sale
+                    <div class="spinner-grow text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </h2>
+                <div class="col-md-12">
+                    <ul class="nav">
+                        <li class="nav-item px-4">
+                            <a href="product_detail.html" title="Chi tiết sản phẩm"><img src="assets/images/ao-thun-nam-10s23tss034-bright-w.webp"style="width: 250px; ";> </a>             
+                            <p><b>Áo Thun Nam Tay Ngắn In Hình </b></p>
+                            <p><b>Form Regular</b></p>
+                            <ul class="nav" style="color: #525456;">
+                                <li>Nam</li>
+                                <li class="nav-item px-5"><li class="nav-item px-3">Size s-Freesize</li> </li>
+                            </ul>
+                            <ul class="nav py-2">
+                                <li style="color:blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">390.000đ</li>
+                                <li class="nav-item px-2"><del>650.000đ</del> </li>
+                                <i class="fa-solid fa-tag px-3" style="color: red;"><i style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">-43</i><i class="fa-solid fa-percent"></i></i>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="product_detail.html" title="Chi tiết sản phẩm"><img src="assets/images/ao-thun-nam-10s23tss034-bright-w.webp"style="width: 250px; ";> </a>                 
+                            <p><b>Áo Thun Nam Tay Ngắn In Hình </b></p>
+                            <p><b>Form Regular</b></p>
+                            <ul class="nav" style="color: #525456;">
+                                <li>Nam</li>
+                                <li class="nav-item px-5"><li class="nav-item px-3">Size s-Freesize</li> </li>
+                            </ul>
+                            <ul class="nav py-2">
+                                <li style="color:blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">390.000đ</li>
+                                <li class="nav-item px-2"><del>650.000đ</del> </li>
+                                <i class="fa-solid fa-tag px-3" style="color: red;"><i style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">-43</i><i class="fa-solid fa-percent"></i></i>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="product_detail.html" title="Chi tiết sản phẩm"><img src="assets/images/ao-thun-nam-10s23tss034-bright-w.webp"style="width: 250px; ";> </a>                
+                            <p><b>Áo Thun Nam Tay Ngắn In Hình </b></p>
+                            <p><b>Form Regular</b></p>
+                            <ul class="nav" style="color: #525456;">
+                                <li>Nam</li>
+                                <li class="nav-item px-5"><li class="nav-item px-3">Size s-Freesize</li> </li>
+                            </ul>
+                            <ul class="nav py-2">
+                                <li style="color:blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">390.000đ</li>
+                                <li class="nav-item px-2"><del>650.000đ</del> </li>
+                                <i class="fa-solid fa-tag px-3" style="color: red;"><i style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">-43</i><i class="fa-solid fa-percent"></i></i>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="product_detail.html" title="Chi tiết sản phẩm"><img src="assets/images/ao-thun-nam-10s23tss034-bright-w.webp"style="width: 250px; ";> </a>      
+                            <p><b>Áo Thun Nam Tay Ngắn In Hình </b></p>
+                            <p><b>Form Regular</b></p>        
+                            <ul class="nav" style="color: #525456;">
+                                <li>Nam</li>
+                                <li class="nav-item px-5"><li class="nav-item px-3">Size s-Freesize</li> </li>
+                            </ul>
+                            <ul class="nav py-2">
+                                <li style="color:blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">390.000đ</li>
+                                <li class="nav-item px-2"><del>650.000đ</del> </li>
+                                <i class="fa-solid fa-tag px-3" style="color: red;"><i style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">-43</i><i class="fa-solid fa-percent"></i></i>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <span style="padding-left: 43%;"  >
+                <button class="btn btn-primary" type="button">Xem thêm sản phẩm</button>
+            </span>
+    </div>
+<!-- product_new -->
+    <div class="product_new">
+        <div class="container py-4">
+            <h2>Sản phẩm mới </i></h2>
+            <div class="col-md-12">
+                <ul class="nav">
+                    <li class="nav-item px-4">
+                        <a href="product_detail.html" title="Chi tiết sản phẩm"><img src="assets/images/ao-thun-nam-10s23tss034-bright-w.webp"style="width: 250px; ";> </a>                
+                        <p><b>Áo Thun Nam Tay Ngắn In Hình </b></p>
+                        <p><b>Form Regular</b></p>
+                        <ul class="nav" style="color: #525456;">
+                            <li>Nam</li>
+                            <li class="nav-item px-5"><li class="nav-item px-3">Size s-Freesize</li> </li>
+                        </ul>
+                        <ul class="nav py-2">
+                            <li style="color:blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">390.000đ</li>
+                            <li class="nav-item px-2"><del>650.000đ</del> </li>
+                            <i class="fa-solid fa-tag px-3" style="color: red;"><i style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">-43</i><i class="fa-solid fa-percent"></i></i>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="product_detail.html" title="Chi tiết sản phẩm"><img src="assets/images/ao-thun-nam-10s23tss034-bright-w.webp"style="width: 250px; ";> </a>               
+                        <p><b>Áo Thun Nam Tay Ngắn In Hình </b></p>
+                        <p><b>Form Regular</b></p>
+                        <ul class="nav" style="color: #525456;">
+                            <li>Nam</li>
+                            <li class="nav-item px-5"><li class="nav-item px-3">Size s-Freesize</li> </li>
+                        </ul>
+                        <ul class="nav py-2">
+                            <li style="color:blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">390.000đ</li>
+                            <li class="nav-item px-2"><del>650.000đ</del> </li>
+                            <i class="fa-solid fa-tag px-3" style="color: red;"><i style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">-43</i><i class="fa-solid fa-percent"></i></i>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="product_detail.html" title="Chi tiết sản phẩm"><img src="assets/images/ao-thun-nam-10s23tss034-bright-w.webp"style="width: 250px; ";> </a>                 
+                        <p><b>Áo Thun Nam Tay Ngắn In Hình </b></p>
+                        <p><b>Form Regular</b></p>
+                        <ul class="nav" style="color: #525456;">
+                            <li>Nam</li>
+                            <li class="nav-item px-5"><li class="nav-item px-3">Size s-Freesize</li> </li>
+                        </ul>
+                        <ul class="nav py-2">
+                            <li style="color:blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">390.000đ</li>
+                            <li class="nav-item px-2"><del>650.000đ</del> </li>
+                            <i class="fa-solid fa-tag px-3" style="color: red;"><i style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">-43</i><i class="fa-solid fa-percent"></i></i>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="product_detail.html" title="Chi tiết sản phẩm"><img src="assets/images/ao-thun-nam-10s23tss034-bright-w.webp"style="width: 250px; ";> </a>      
+                        <p><b>Áo Thun Nam Tay Ngắn In Hình </b></p>
+                        <p><b>Form Regular</b></p>        
+                        <ul class="nav" style="color: #525456;">
+                            <li>Nam</li>
+                            <li class="nav-item px-5"><li class="nav-item px-3">Size s-Freesize</li> </li>
+                        </ul>
+                        <ul class="nav py-2">
+                            <li style="color:blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">390.000đ</li>
+                            <li class="nav-item px-2"><del>650.000đ</del> </li>
+                            <i class="fa-solid fa-tag px-3" style="color: red;"><i style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">-43</i><i class="fa-solid fa-percent"></i></i>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="banner py-4">
+        <div class="container">
+            <ul class="nav"></ul>             
+                <img clas="nav-item px-4" src="assets/images/banner1.webp" style="width: 600px;" alt="">
+                <img class="nav-item px-2" src="assets/images/banner2.webp" style="width: 616px;"alt="">
+            </ul>
+        </div>
+    </div>
+<!-- post_new -->
+<div class="post_new">
+    <div class="container py-2">
+        <h2>Tin tức mới nhất</i></h2>
+        <div class="col-md-12">
+            <ul class="nav">
+                <li class="nav-item px-3">
+                    <img src="assets/images/phoi-do-voi-form-relax-chuan-men.webp" style="width: 380px;"; alt="">                
+                    <p><b>PHỐI ĐỒ VỚI QUẦN RELAX CHUẨN MEN</b></p>
+                    <p><b>DÀNH CHO NAM</b></p>
+                    <ul class="nav" style="color: #525456;">
+                        <li>Tuy nhiên, form relax được biết đến là một form rộng</li>
+                    </ul>
+                </li>
+                <li class="nav-item px-3">
+                    <img src="assets/images/quan-kaki-nu-thumb.webp" style="width: 380px;"; alt="">                
+                    <p><b>GỢI Ý 5 KIỂU QUẦN KAKI DÀNH CHO NỮ TRẺ</b></p>
+                    <ul class="nav" style="color: #525456;">
+                        <li>Quần kaki nữ là một trong những item thoải mái</li>
+                    </ul>
+                </li>
+                <li class="nav-item px-3">
+                    <img src="assets/images/sportswear-la-gi-chat-lieu-lam-n.webp" style="width: 380px;"; alt="">     
+                    <p><b>SPORTSWEAR LÀ GÌ? CHẤT LIỆU LÀM NÊN</b></p>
+                    <p><b>NHỮNG BỘ SPORTSWEAR CAO CẤP</b></p>        
+                    <ul class="nav" style="color: #525456;">
+                        <li>Nếu đã là một người đam mê thể thao, thích vận động...</li>
+                        
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <footer class="section_footer bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="font-monospace"> THÔNG TIN</h4>
+                    <p class="font-monospace">Chúng tôi luôn trân trọng và mong đợi nhận được mọi ý kiến đóng góp từ khách hàng để có thể nâng cấp trải nghiệm dịch vụ và sản phẩm tốt hơn nữa.</p>
+                    <i class="fa-solid fa-location-dot" style="color: #525456;"></i>
+                    <i class="font-monospace">70 Lữ Gia, Phường 15, Quận 11, TP. HCM</i>
+                    <p></p>
+                    <i class="fa-solid fa-phone-volume" style="color: #525456;"></i>
+                    <i class="font-monospace">1900 6750</i>
+                    <p></p>
+                    <i class="fa-solid fa-paper-plane" style="color: #525456;"></i>
+                    <i class="font-monospace">support@sapo.vn</i>  
+                </div>
+                <div class="col-md">
+                    <h4 class="font-monospace"> CHÍNH SÁCH</h4>
+                    <p class="font-monospace">Chính sách thành viên</p>
+                    <p class="font-monospace">Chính sách vận chuyển</p>
+                    <p class="font-monospace">Chăm sóc khách hàng</p>
+                    <p class="font-monospace">Phương thức thanh toán</p>
+                    <p class="font-monospace">Chính sách đổi trả / bảo hành</p>
+                </div>
+                <div class="col-md">
+                    <h4 class="font-monospace">HƯỚNG DẪN</h4>
+                    <p class="font-monospace">Denny Member</p>
+                    <p class="font-monospace">Mua hàng dễ dàng</p>
+                    <p class="font-monospace">Hợp tác nhượng quyền</p>
+                    <p class="font-monospace">Hướng dẫn mua hàng online</p>
+                    <p class="font-monospace">Hướng dẫn kiểm tra hạng thẻ thành viên</p>
+
+                </div>
+                <div class="col-md-3">
+                    <h4 class="font-monospace">ĐĂNG KÝ NHẬN TIN</h4>
+                    <input type="email" class="form-floating bg-dark text-white" id="exampleFormControlInput1" placeholder="Nhập địa chỉ email">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p></p>
+                    <p class="font-monospace">Hình thức thanh toán:</p>
+                    <p>
+                        <i class="fa-brands fa-cc-visa py-4" style="color: #b2bed2;"></i>
+                        <i class="fa-regular fa-credit-card py-4" style="color: #b2bed2;"></i>
+                        <i class="fa-solid fa-money-check-dollar" style="color: #b2bed2;"></i>
+                    </p>
+                    <p></p>
+                    <p class="font-monospace">Liên kết sàn:</p>
+                    <p>
+                        <i class="fa-brands fa-facebook py-4" style="color: #b2bed2;"></i> 
+                        <i class="fa-brands fa-instagram py-4" style="color: #b2bed2;"></i>
+                        <i class="fa-brands fa-github" style="color: #b2bed2;"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/layoutsite.js"></script>
+</body>
+</html>
